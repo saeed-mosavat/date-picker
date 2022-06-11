@@ -1,9 +1,19 @@
 {
   "name": "date-picker",
+  "type": "module",
   "version": "0.0.0",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
   "repository": "https://github.com/saeed-mosavat/date-picker.git",
   "author": "Saeed Mosavat <saeed.mosavat@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
 }

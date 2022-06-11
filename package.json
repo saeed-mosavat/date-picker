@@ -1,0 +1,9 @@
+{
+  "name": "date-picker",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/saeed-mosavat/date-picker.git",
+  "author": "Saeed Mosavat <saeed.mosavat@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
